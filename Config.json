@@ -1,0 +1,24 @@
+{
+    "caméra": {
+        "ip": "192.168.0.3",
+        "port": 8000,
+        "login": "admin",
+        "password": "ptz909090",
+        "grand_angle": "rtsp://admin:ptz909090@192.168.0.3:554//h264Preview_01_sub",
+        "zoom": "rtsp://admin:ptz909090@192.168.0.3:554//h264Preview_02_sub",
+        "verbose": false
+    },
+    "tracking": {
+        "vitesse": 0.1,
+        "tolérance": 0.3,
+        "target_label": 0,
+        "capture_path": "captured_images",
+        "verbose": false
+    },
+    "yolo": {
+        "model": "PT/Humain.pt",
+        "confiance": 0.5,
+        "verbose": false,
+        "display": true
+    }
+}
